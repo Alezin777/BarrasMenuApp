@@ -5,25 +5,25 @@
         android:id="@+id/mNovo"
         android:icon="@drawable/baseline_person_add"
         android:title="novo"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/mAdd"
         android:icon="@drawable/baseline_add"
         android:title="add"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mSearch"
         android:icon="@drawable/baseline_search"
         android:title="search"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mUpdate"
         android:icon="@drawable/baseline_update"
         android:title="update"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mTrash"
         android:icon="@drawable/baseline_restore_from_trash"
         android:title="trash"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom" />
 </menu>
