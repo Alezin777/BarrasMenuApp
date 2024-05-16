@@ -21,4 +21,9 @@
         android:icon="@drawable/baseline_update"
         android:title="update"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mTrash"
+        android:icon="@drawable/baseline_restore_from_trash"
+        android:title="trash"
+        app:showAsAction="ifRoom" />
 </menu>
